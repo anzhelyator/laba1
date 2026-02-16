@@ -25,7 +25,7 @@ int Count_active(std::bitset<5> suit) {
 bool Detect(std::bitset<5> suit) {
     //Включены невидимость или беззвучие.
     bool cond1 = suit.test(Invisibility) || suit.test(Silence);
-    //Включены невидимость или беззвучие радио или ИК.
+    //Включены радио или ИК.
     bool cond2 = suit.test(Radio_waves) || suit.test(Infrared_waves);
     return cond1 && cond2;
 }
