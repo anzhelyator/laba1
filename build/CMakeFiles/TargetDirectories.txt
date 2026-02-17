@@ -1,3 +1,0 @@
-C:/laba1/build/CMakeFiles/laba1.dir
-C:/laba1/build/CMakeFiles/edit_cache.dir
-C:/laba1/build/CMakeFiles/rebuild_cache.dir
